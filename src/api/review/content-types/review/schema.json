@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "singularName": "review",
+    "pluralName": "reviews",
+    "displayName": "Review",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Director": {
+      "type": "string"
+    },
+    "Rating": {
+      "type": "integer",
+      "max": 5,
+      "min": 1
+    },
+    "Genre": {
+      "type": "enumeration",
+      "enum": [
+        "drama",
+        "animation",
+        "thriller",
+        "science fiction",
+        "mystery",
+        "documentary",
+        "horror",
+        "romance",
+        "musical",
+        "fantasy",
+        "action"
+      ]
+    },
+    "Cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Critic": {
+      "type": "string"
+    },
+    "Review": {
+      "type": "richtext"
+    }
+  }
+}
