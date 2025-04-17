@@ -10,5 +10,4 @@ This repository contains the **Strapi** Headless CMS for our Review Site project
 
 ## Author & Contributors
 - **CMS Setup**: Regina Trevino
-- **Collaborators**: Rui Peng, Akash, Sammy
 
